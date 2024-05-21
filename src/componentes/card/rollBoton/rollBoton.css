@@ -1,0 +1,20 @@
+.roll-boton {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  margin-top: 20px;
+  gap: 5px;
+  font-size: 2rem;
+  background-color: rgb(153, 59, 153);
+  color: rgb(4 0 157);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0px 1px 16px 7px rgb(239 229 229 / 20%);
+}
+.roll-boton:hover {
+  background-color: blue;
+  color: aliceblue;
+}
