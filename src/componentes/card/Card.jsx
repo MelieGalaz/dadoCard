@@ -76,7 +76,7 @@ export const Card = ({
           <h3 className="card-titulo"> hola soy card {numDado}</h3>
 
           {cardHeader && <p className="card-header">{cardHeader}</p>}
-          {cardImg && <img src={cardImg} alt="perrito" className="card-img" />}
+          {cardImg && <img src={cardImg} alt="card" className="card-img" />}
           {cardFooter && <p className="card-footer">{cardFooter}</p>}
           {cardBoton && (
             <button className="card-button" onClick={handleButtonClick}>
