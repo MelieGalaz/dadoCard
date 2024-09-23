@@ -73,7 +73,7 @@ export const Card = ({
         </div>
       ) : (
         <>
-          <h3 className="card-titulo"> hola soy card {numDado}</h3>
+         
 
           {cardHeader && <p className="card-header">{cardHeader}</p>}
           {cardImg && <img src={cardImg} alt="card" className="card-img" />}
